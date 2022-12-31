@@ -1,0 +1,242 @@
+.container {
+    background: #e7e7db;
+    border: 1px solid #8F6B2982;
+    border-radius: 5px;
+    min-height: 80vh;
+    z-index: 1;
+    padding: 8px !important;
+    min-width: 1000px;
+    margin-top: 52px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: auto;
+
+}
+
+.container:before {
+    content: 'Container';
+    position: relative;
+    top: -2px;
+    left: -10px;
+    height: 25px;
+    padding: 8px;
+    border-top-left-radius: 5px;
+
+    background: inherit;
+    border: 1px solid #8F6B2982;
+    text-align: center;
+    margin-bottom: 2px;
+}
+
+.container:hover:before {
+    border: 2px solid #fa7272;
+    font-weight: 550 !important;
+}
+
+.container:hover {
+    border: 2px dotted #fa7272 !important;
+}
+
+.container.focus {
+    border: 2px solid red !important;
+}
+
+.container.focus:before {
+    border: 2px solid red !important;
+    font-weight: 550;
+}
+
+
+.selected {
+    border: 2px solid blue;
+}
+
+
+.row {
+    position: relative;
+    border-radius: 6px;
+    background: #c2b4a1 !important;
+    border: 1px solid #704019;
+    min-height: 60px;
+    z-index: 0;
+    margin: 12px 5px 5px;
+    padding: 10px 10px 10px 60px;
+}
+
+.row:before {
+    content: 'Row';
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    height: 25px;
+    width: 50px;
+    border-top-left-radius: 6px;
+
+    background: inherit;
+    border: 1px solid #704019;
+    text-align: center;
+}
+
+
+.row:hover:before {
+    border: 2px solid #E58D8DFF;
+    font-weight: 550 !important;
+}
+
+.row:hover {
+    border: 2px dotted #E58D8DFF !important;
+}
+
+.row.focus {
+    border: 2px solid red !important;
+}
+
+.row.focus:before {
+    border: 2px solid red !important;
+    font-weight: 550;
+}
+
+/* Colonne */
+
+.col {
+    position: relative;
+    background: #52c5d0 !important;
+    border-radius: 6px;
+    border: 1px solid #165d57;
+    min-height: 50px;
+    margin: 2px;
+}
+
+.col:before {
+    content: 'Col';
+    position: absolute;
+    padding: 0 5px;
+    top: -1px;
+    left: -1px;
+    border-top-left-radius: 6px;
+    background: inherit;
+    border: 1px solid #165d57;
+    text-align: center;
+}
+
+
+.col:hover:before {
+    border: 2px solid #8e40af;
+    font-weight: 550 !important;
+}
+
+
+.col:hover {
+    border: 2px dotted #8E40AFFF !important;
+}
+
+.col.focus {
+    border: 2px solid #7b1fa2 !important;
+}
+
+.col.focus:before {
+    border: 2px solid #7b1fa2 !important;
+    font-weight: 550;
+}
+
+.input-group{
+    margin-top: 15px;
+    margin-left: 30px;
+    width: 90%!important;
+}
+
+.input-group:hover{
+    border: 2px dotted #265ba1 !important;
+}
+
+.input-group:focus{
+    border: 2px solid #265BA1FF !important;
+}
+
+/* bar side   */
+.properties {
+    min-width: 400px;
+    height: 100vh;
+    background: #5a5b5b;
+}
+
+
+#main {
+    display: flex;
+}
+
+#create {
+    margin: 5px;
+    background: #f8f8f8;
+    height: 100vh;
+    border-right: 1px solid lightgray;
+    padding-top: 5px;
+}
+
+#button {
+    margin: 5px;
+    background: #b2b1b1;
+    height: 100vh;
+    border-right: 1px solid #bbbbbb;
+    padding-top: 5px;
+}
+
+#property {
+    margin: 5px;
+    background: #ebecec;
+    height: 100vh;
+    border-right: 1px solid gray;
+    padding-top: 5px;
+
+}
+
+#template {
+    margin: 5px;
+    background: #bec0c0;
+    height: 100vh;
+    border-right: 1px solid black;
+    padding-top: 5px;
+}
+
+
+.QLabel {
+    width: 190px;
+    height: 80px;
+    background: #b9b1b2;
+    border: 1px solid #737373;
+    border-radius: 8px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.QLabel:hover {
+    background: #b9b1b2;
+    border: 2px solid #737373;
+    font-weight: 550;
+}
+
+
+.QComponent {
+    width: 190px;
+    height: 50px;
+    background: #b1b7b9;
+    border: 1px solid #737373;
+    border-radius: 8px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.QComponent:hover {
+    background: #9bafb6;
+    border: 2px solid #737373;
+    font-weight: 550;
+}
+
+
+
