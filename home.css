@@ -146,11 +146,13 @@
 }
 
 .input-group:hover{
-    border: 2px dotted #265ba1 !important;
+    border: 2px solid #673d9b !important;
+    border-radius: 4px;
 }
 
-.input-group:focus{
-    border: 2px solid #265BA1FF !important;
+.input-group.focus{
+    border: 2px solid #462273 !important;
+    border-radius: 4px;
 }
 
 /* bar side   */

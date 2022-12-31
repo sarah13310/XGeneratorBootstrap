@@ -28,7 +28,7 @@
         </div>
     </div>
 </div>
-<h1>Generator BootStrap</h1>
+<h2>Generator BootStrap</h2>
 <hr>
 <div id="main">
     <div id="properties">
@@ -170,12 +170,11 @@
         }
     }
 
-
     Container();
     CreateListComponent();
     CreateTemplate();
 
-    fetch("properties.json")
+    fetch("json/properties.json")
         .then(response => response.json())
         .then(data => console.log(data))
 

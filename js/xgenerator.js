@@ -38,7 +38,7 @@ function Row() {
             event.stopPropagation()
             AllUnSelection();
             this.classList.toggle("focus");
-            selectedParent = this
+            selectedParent = this;
         }, false);
     }
 }
@@ -61,7 +61,7 @@ function Col() {
             event.stopPropagation()
             AllUnSelection();
             this.classList.toggle("focus");
-            selectedParent = this
+            selectedParent = this;
         }, false);
     }
 }
@@ -89,13 +89,13 @@ function Input(type, value, id, placeholder) {
         selectedParent.appendChild(div)
     }
 
-    let inputs = document.getElementsByClassName('input')
+    let inputs = document.getElementsByClassName('input-group')
     for (let i = 0; i < inputs.length; i++) {
         inputs[i].addEventListener("click", function () {
             event.stopPropagation()
             AllUnSelection();
             this.classList.toggle("focus");
-            selectedParent = this
+            selectedParent = this;
         }, false);
     }
 }
